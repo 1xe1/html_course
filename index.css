@@ -1,0 +1,44 @@
+* {
+  background-color: lightslategray;
+  scroll-behavior: smooth;
+}
+.table-1 {
+  width: 1000px;
+  align-items: center;
+}
+.table-1:hover{
+  transition: all 0.5s;
+  transform: rotate(360deg);
+}
+
+img {
+  width: 400px;
+  height: 225px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+img:hover {
+  transition: all 0.5s;
+  transform: rotate(360deg);
+}
+a {
+  color: aliceblue;
+}
+a:visited {
+  color: lightblue;
+}
+
+a:hover,
+a:active {
+  color: #eee;
+}
+table,
+tr,
+th,
+td,
+caption {
+  border: 1px solid black;
+  font-family: "Courier New", Courier, monospace;
+  border-collapse: collapse;
+  padding: 0.5rem;
+}
